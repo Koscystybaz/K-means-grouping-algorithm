@@ -1,14 +1,15 @@
 ﻿  importer.cpp
-C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\Projekt Zaliczeniowy\importer.cpp(33,31): warning C4101: "exception": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\Projekt Zaliczeniowy\importer.cpp(33,31): warning C4101: "exception": lokalna zmienna, do której nie istnieje odwołanie
   main.cpp
   functions.cpp
-C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(14,59): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
-C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(15,80): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
-C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(16,18): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
-C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(77,21): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
-C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(111,21): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(14,59): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(15,80): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(16,18): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(77,21): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\Projekt Zaliczeniowy\functions.cpp(111,21): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
   exporter.cpp
   screen.cpp
   validator.cpp
   Generowanie kodu...
-  Projekt Zaliczeniowy.vcxproj -> C:\Users\Jakub\Desktop\MyProjects-main\K-meansGrouping\Projekt Zaliczeniowy\x64\Debug\Projekt Zaliczeniowy.exe
+  LINK : nie znaleziono elementu C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\x64\Debug\Projekt Zaliczeniowy.exe ani nie został on skompilowany podczas ostatniego konsolidowania przyrostowego; zostanie wykonana pełna konsolidacja
+  Projekt Zaliczeniowy.vcxproj -> C:\Users\Jakub\Desktop\Nowy folder\K-means-grouping-algorithm\Projekt Zaliczeniowy\x64\Debug\Projekt Zaliczeniowy.exe
