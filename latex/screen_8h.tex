@@ -1,0 +1,116 @@
+\hypertarget{screen_8h}{}\doxysection{C\+:/\+Users/\+Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/\+Projekt Zaliczeniowy/\+Projekt Zaliczeniowy/screen.h File Reference}
+\label{screen_8h}\index{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h}}
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for screen.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{screen_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{screen_8h_abf12f558987057346c8feb26c4126a11}{show\+Data}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&data, int decimals, bool indices, bool new\+Line)
+\begin{DoxyCompactList}\small\item\em Displays whole algoritm with results in console. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{screen_8h_a096a3e418660697bf76cc219d1cd0913}{show\+Vector}} (const std\+::vector$<$ int $>$ \&vector, bool new\+Line)
+\begin{DoxyCompactList}\small\item\em Displays vector as a line in console. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{screen_8h_a921e49932d9e205b42e1c7b8e31ef119}{show\+Clustered}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&data, const std\+::vector$<$ int $>$ \&clustering, int num\+Clusters, int decimals)
+\begin{DoxyCompactList}\small\item\em Diplays clustered resolution. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{screen_8h_aa58b3de71f615258affac72b8692f272}{show\+Exception}} (std\+::string message)
+\begin{DoxyCompactList}\small\item\em Showing finded exception in input file ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{screen_8h_a56f1ca1f43978e50a52750ceb2f393b6}\label{screen_8h_a56f1ca1f43978e50a52750ceb2f393b6}} 
+void {\bfseries show\+Usage} ()
+\begin{DoxyCompactList}\small\item\em Instruction of program usage. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik nagłowkowy... 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{screen_8h_a921e49932d9e205b42e1c7b8e31ef119}\label{screen_8h_a921e49932d9e205b42e1c7b8e31ef119}} 
+\index{screen.h@{screen.h}!showClustered@{showClustered}}
+\index{showClustered@{showClustered}!screen.h@{screen.h}}
+\doxysubsubsection{\texorpdfstring{showClustered()}{showClustered()}}
+{\footnotesize\ttfamily void show\+Clustered (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{data,  }\item[{const std\+::vector$<$ int $>$ \&}]{clustering,  }\item[{int}]{num\+Clusters,  }\item[{int}]{decimals }\end{DoxyParamCaption})}
+
+
+
+Diplays clustered resolution. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & input data \\
+\hline
+{\em clustering} & final clusters \\
+\hline
+{\em num\+Clusters} & number of clusters to split data \\
+\hline
+{\em decimals} & decimal digits after point \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{screen_8h_abf12f558987057346c8feb26c4126a11}\label{screen_8h_abf12f558987057346c8feb26c4126a11}} 
+\index{screen.h@{screen.h}!showData@{showData}}
+\index{showData@{showData}!screen.h@{screen.h}}
+\doxysubsubsection{\texorpdfstring{showData()}{showData()}}
+{\footnotesize\ttfamily void show\+Data (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{data,  }\item[{int}]{decimals,  }\item[{bool}]{indices,  }\item[{bool}]{new\+Line }\end{DoxyParamCaption})}
+
+
+
+Displays whole algoritm with results in console. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & input data from file \\
+\hline
+{\em decimals} & decimals points in double \\
+\hline
+{\em indices} & indexes of rows of data in file \\
+\hline
+{\em new\+Line} & should add new line at the end \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{screen_8h_aa58b3de71f615258affac72b8692f272}\label{screen_8h_aa58b3de71f615258affac72b8692f272}} 
+\index{screen.h@{screen.h}!showException@{showException}}
+\index{showException@{showException}!screen.h@{screen.h}}
+\doxysubsubsection{\texorpdfstring{showException()}{showException()}}
+{\footnotesize\ttfamily void show\+Exception (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})}
+
+
+
+Showing finded exception in input file ~\newline
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & massage shown in console \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{screen_8h_aa58b3de71f615258affac72b8692f272_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{screen_8h_a096a3e418660697bf76cc219d1cd0913}\label{screen_8h_a096a3e418660697bf76cc219d1cd0913}} 
+\index{screen.h@{screen.h}!showVector@{showVector}}
+\index{showVector@{showVector}!screen.h@{screen.h}}
+\doxysubsubsection{\texorpdfstring{showVector()}{showVector()}}
+{\footnotesize\ttfamily void show\+Vector (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{vector,  }\item[{bool}]{new\+Line }\end{DoxyParamCaption})}
+
+
+
+Displays vector as a line in console. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & display one vector as a line \\
+\hline
+{\em new\+Line} & should add new line at the end \\
+\hline
+\end{DoxyParams}

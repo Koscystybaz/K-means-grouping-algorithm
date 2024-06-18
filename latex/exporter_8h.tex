@@ -1,0 +1,150 @@
+\hypertarget{exporter_8h}{}\doxysection{C\+:/\+Users/\+Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/\+Projekt Zaliczeniowy/\+Projekt Zaliczeniowy/exporter.h File Reference}
+\label{exporter_8h}\index{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for exporter.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{exporter_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{exporter_8h_a273e7ae2249918f026ed8711e92fb4d5}{export\+File}} (std\+::string file\+Name, const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&raw\+Data, const std\+::vector$<$ int $>$ \&clustering, int num\+Clusters, int decimals)
+\begin{DoxyCompactList}\small\item\em Exports data to output file in format of txt with final form of clusters grouped. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{exporter_8h_adc7b1d53151ab9cb58585e7280aedd41}{export\+Data}} (std\+::ofstream \&my\+File, const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&data, int decimals, bool indices, bool new\+Line)
+\begin{DoxyCompactList}\small\item\em Exports data to export\+File function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{exporter_8h_a8201fdca18814d07ed7a343793ba3498}{export\+Vector}} (std\+::ofstream \&my\+File, const std\+::vector$<$ int $>$ \&vector, bool new\+Line)
+\begin{DoxyCompactList}\small\item\em Exports groups of splitted clusters to ountput file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{exporter_8h_a036402b32405962c1246b7ffa367b2fc}{export\+Clustered}} (std\+::ofstream \&my\+File, const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&data, const std\+::vector$<$ int $>$ \&clustering, int num\+Clusters, int decimals)
+\begin{DoxyCompactList}\small\item\em Export cluster resolution to output file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik nagłowkowy... 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{exporter_8h_a036402b32405962c1246b7ffa367b2fc}\label{exporter_8h_a036402b32405962c1246b7ffa367b2fc}} 
+\index{exporter.h@{exporter.h}!exportClustered@{exportClustered}}
+\index{exportClustered@{exportClustered}!exporter.h@{exporter.h}}
+\doxysubsubsection{\texorpdfstring{exportClustered()}{exportClustered()}}
+{\footnotesize\ttfamily void export\+Clustered (\begin{DoxyParamCaption}\item[{std\+::ofstream \&}]{my\+File,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{data,  }\item[{const std\+::vector$<$ int $>$ \&}]{clustering,  }\item[{int}]{num\+Clusters,  }\item[{int}]{decimals }\end{DoxyParamCaption})}
+
+
+
+Export cluster resolution to output file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em my\+File} & opened output file \\
+\hline
+{\em data} & capacitor for data \\
+\hline
+{\em clustering} & final groups \\
+\hline
+{\em num\+Clusters} & number of clusters to split for data \\
+\hline
+{\em decimals} & decimal digits after point \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{exporter_8h_a036402b32405962c1246b7ffa367b2fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{exporter_8h_adc7b1d53151ab9cb58585e7280aedd41}\label{exporter_8h_adc7b1d53151ab9cb58585e7280aedd41}} 
+\index{exporter.h@{exporter.h}!exportData@{exportData}}
+\index{exportData@{exportData}!exporter.h@{exporter.h}}
+\doxysubsubsection{\texorpdfstring{exportData()}{exportData()}}
+{\footnotesize\ttfamily void export\+Data (\begin{DoxyParamCaption}\item[{std\+::ofstream \&}]{my\+File,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{data,  }\item[{int}]{decimals,  }\item[{bool}]{indices,  }\item[{bool}]{new\+Line }\end{DoxyParamCaption})}
+
+
+
+Exports data to export\+File function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em my\+File} & opened output file \\
+\hline
+{\em data} & capacitor for data \\
+\hline
+{\em decimals} & decimal digits after point \\
+\hline
+{\em indices} & indexes of data line in file \\
+\hline
+{\em new\+Line} & new line in file.\+txt \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{exporter_8h_adc7b1d53151ab9cb58585e7280aedd41_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{exporter_8h_a273e7ae2249918f026ed8711e92fb4d5}\label{exporter_8h_a273e7ae2249918f026ed8711e92fb4d5}} 
+\index{exporter.h@{exporter.h}!exportFile@{exportFile}}
+\index{exportFile@{exportFile}!exporter.h@{exporter.h}}
+\doxysubsubsection{\texorpdfstring{exportFile()}{exportFile()}}
+{\footnotesize\ttfamily void export\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{raw\+Data,  }\item[{const std\+::vector$<$ int $>$ \&}]{clustering,  }\item[{int}]{num\+Clusters,  }\item[{int}]{decimals }\end{DoxyParamCaption})}
+
+
+
+Exports data to output file in format of txt with final form of clusters grouped. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & name of outnput file \\
+\hline
+{\em raw\+Data} & imported data \\
+\hline
+{\em clustering} & final groups \\
+\hline
+{\em num\+Clusters} & number of clusters to split for data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{exporter_8h_a273e7ae2249918f026ed8711e92fb4d5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{exporter_8h_a8201fdca18814d07ed7a343793ba3498}\label{exporter_8h_a8201fdca18814d07ed7a343793ba3498}} 
+\index{exporter.h@{exporter.h}!exportVector@{exportVector}}
+\index{exportVector@{exportVector}!exporter.h@{exporter.h}}
+\doxysubsubsection{\texorpdfstring{exportVector()}{exportVector()}}
+{\footnotesize\ttfamily void export\+Vector (\begin{DoxyParamCaption}\item[{std\+::ofstream \&}]{my\+File,  }\item[{const std\+::vector$<$ int $>$ \&}]{vector,  }\item[{bool}]{new\+Line }\end{DoxyParamCaption})}
+
+
+
+Exports groups of splitted clusters to ountput file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em my\+File} & opened output file \\
+\hline
+{\em vector} & data represented for line in file \\
+\hline
+{\em new\+Line} & new line in file.\+txt \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{exporter_8h_a8201fdca18814d07ed7a343793ba3498_icgraph}
+\end{center}
+\end{figure}

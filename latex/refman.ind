@@ -1,0 +1,109 @@
+\begin{theindex}
+
+  \item {allocate}
+    \subitem {functions.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h}, 
+		\hyperpage{3}, \hyperpage{6}
+  \item {C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h}, 
+		\hyperpage{7}, \hyperpage{14}
+  \item {C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/importer.h}, 
+		\hyperpage{15, 16}
+  \item {C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h}, 
+		\hyperpage{16}, \hyperpage{19}
+  \item {C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h}, 
+		\hyperpage{19}, \hyperpage{21}
+  \item {cluster}
+    \subitem {functions.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {distance}
+    \subitem {functions.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {exportClustered}
+    \subitem {exporter.h}, \hyperpage{4}
+  \item {exportData}
+    \subitem {exporter.h}, \hyperpage{4}
+  \item {exporter.h}
+    \subitem {exportClustered}, \hyperpage{4}
+    \subitem {exportData}, \hyperpage{4}
+    \subitem {exportFile}, \hyperpage{5}
+    \subitem {exportVector}, \hyperpage{6}
+  \item {exportFile}
+    \subitem {exporter.h}, \hyperpage{5}
+  \item {exportVector}
+    \subitem {exporter.h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {functions.h}
+    \subitem {allocate}, \hyperpage{8}
+    \subitem {cluster}, \hyperpage{8}
+    \subitem {distance}, \hyperpage{10}
+    \subitem {initClustering}, \hyperpage{10}
+    \subitem {minIndex}, \hyperpage{11}
+    \subitem {normalized}, \hyperpage{11}
+    \subitem {updateClustering}, \hyperpage{12}
+    \subitem {updateMeans}, \hyperpage{13}
+
+  \indexspace
+
+  \item {importer.h}
+    \subitem {readFile}, \hyperpage{15}
+  \item {initClustering}
+    \subitem {functions.h}, \hyperpage{10}
+  \item {isNumber}
+    \subitem {validator.h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {minIndex}
+    \subitem {functions.h}, \hyperpage{11}
+
+  \indexspace
+
+  \item {normalized}
+    \subitem {functions.h}, \hyperpage{11}
+
+  \indexspace
+
+  \item {readFile}
+    \subitem {importer.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {screen.h}
+    \subitem {showClustered}, \hyperpage{17}
+    \subitem {showData}, \hyperpage{17}
+    \subitem {showException}, \hyperpage{18}
+    \subitem {showVector}, \hyperpage{18}
+  \item {showClustered}
+    \subitem {screen.h}, \hyperpage{17}
+  \item {showData}
+    \subitem {screen.h}, \hyperpage{17}
+  \item {showException}
+    \subitem {screen.h}, \hyperpage{18}
+  \item {showVector}
+    \subitem {screen.h}, \hyperpage{18}
+
+  \indexspace
+
+  \item {updateClustering}
+    \subitem {functions.h}, \hyperpage{12}
+  \item {updateMeans}
+    \subitem {functions.h}, \hyperpage{13}
+
+  \indexspace
+
+  \item {validateArguments}
+    \subitem {validator.h}, \hyperpage{20}
+  \item {validator.h}
+    \subitem {isNumber}, \hyperpage{20}
+    \subitem {validateArguments}, \hyperpage{20}
+
+\end{theindex}

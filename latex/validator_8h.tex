@@ -1,0 +1,80 @@
+\hypertarget{validator_8h}{}\doxysection{C\+:/\+Users/\+Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/\+Projekt Zaliczeniowy/\+Projekt Zaliczeniowy/validator.h File Reference}
+\label{validator_8h}\index{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for validator.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{validator_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{validator_8h_a8cdb0b1fb311a5c49b358a24b241954a}{validate\+Arguments}} (std\+::string input\+File, std\+::string output\+File, std\+::string cluster\+Number\+String, std\+::string dimensions\+Number\+String)
+\begin{DoxyCompactList}\small\item\em Validate arugmetns for they rights forms. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{validator_8h_afda0ad2fe37b6d0a7ab0454c308ff59e}{is\+Number}} (const std\+::string \&str)
+\begin{DoxyCompactList}\small\item\em Check if string is number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik nagłowkowy... 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{validator_8h_afda0ad2fe37b6d0a7ab0454c308ff59e}\label{validator_8h_afda0ad2fe37b6d0a7ab0454c308ff59e}} 
+\index{validator.h@{validator.h}!isNumber@{isNumber}}
+\index{isNumber@{isNumber}!validator.h@{validator.h}}
+\doxysubsubsection{\texorpdfstring{isNumber()}{isNumber()}}
+{\footnotesize\ttfamily bool is\+Number (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{str }\end{DoxyParamCaption})}
+
+
+
+Check if string is number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string to beeing checked \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{validator_8h_afda0ad2fe37b6d0a7ab0454c308ff59e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{validator_8h_a8cdb0b1fb311a5c49b358a24b241954a}\label{validator_8h_a8cdb0b1fb311a5c49b358a24b241954a}} 
+\index{validator.h@{validator.h}!validateArguments@{validateArguments}}
+\index{validateArguments@{validateArguments}!validator.h@{validator.h}}
+\doxysubsubsection{\texorpdfstring{validateArguments()}{validateArguments()}}
+{\footnotesize\ttfamily bool validate\+Arguments (\begin{DoxyParamCaption}\item[{std\+::string}]{input\+File,  }\item[{std\+::string}]{output\+File,  }\item[{std\+::string}]{cluster\+Number\+String,  }\item[{std\+::string}]{dimensions\+Number\+String }\end{DoxyParamCaption})}
+
+
+
+Validate arugmetns for they rights forms. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+File} & given input file \\
+\hline
+{\em output\+File} & given output file \\
+\hline
+{\em cluster\+Number\+String} & number of clusters to group \\
+\hline
+{\em dimensions\+Number\+String} & number of dimensions of one row in file \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{validator_8h_a8cdb0b1fb311a5c49b358a24b241954a_cgraph}
+\end{center}
+\end{figure}

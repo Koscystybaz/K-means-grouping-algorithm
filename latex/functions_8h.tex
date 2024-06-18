@@ -1,0 +1,268 @@
+\hypertarget{functions_8h}{}\doxysection{C\+:/\+Users/\+Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/\+Projekt Zaliczeniowy/\+Projekt Zaliczeniowy/functions.h File Reference}
+\label{functions_8h}\index{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for functions.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{functions_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{functions_8h_a481e42205dea393958d6aefec03977ff}{cluster}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&raw\+Data, int num\+Clusters)
+\begin{DoxyCompactList}\small\item\em Main clustering function. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{functions_8h_a2a6a076f322cda547bccb50174217bd2}{normalized}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&raw\+Data)
+\begin{DoxyCompactList}\small\item\em Normalizating input data using standard deviation. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{functions_8h_a4518712782ae4f838653319f2f54c04f}{init\+Clustering}} (int num\+Tuples, int num\+Clusters, int seed)
+\begin{DoxyCompactList}\small\item\em Propose random clustering for data. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{functions_8h_ab90ce034d2f960a57b536687355d83aa}{allocate}} (int num\+Clusters, int num\+Columns)
+\begin{DoxyCompactList}\small\item\em Prepare memory for data. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{functions_8h_ab713a10e9178f03cb29ac95456b5ad6e}{update\+Means}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&data, std\+::vector$<$ int $>$ \&clustering, std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&means)
+\begin{DoxyCompactList}\small\item\em Calculate centroids for cluster groups. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{functions_8h_a624b3f1d239a09019422537debaf0dec}{update\+Clustering}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&data, std\+::vector$<$ int $>$ \&clustering, const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&means)
+\begin{DoxyCompactList}\small\item\em Calculating new clusters grouping based on new centroids. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{functions_8h_af5d070164c3812ac43ff336a501d5505}{distance}} (const std\+::vector$<$ double $>$ \&tuple, const std\+::vector$<$ double $>$ \&mean)
+\begin{DoxyCompactList}\small\item\em Calculate distances between vectors. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{functions_8h_af80000f3c43ffa2c0713101931eba40e}{min\+Index}} (const std\+::vector$<$ double $>$ \&distances)
+\begin{DoxyCompactList}\small\item\em Get the closest centroid. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Plik nagłowkowy... 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{functions_8h_ab90ce034d2f960a57b536687355d83aa}\label{functions_8h_ab90ce034d2f960a57b536687355d83aa}} 
+\index{functions.h@{functions.h}!allocate@{allocate}}
+\index{allocate@{allocate}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{allocate()}{allocate()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ allocate (\begin{DoxyParamCaption}\item[{int}]{num\+Clusters,  }\item[{int}]{num\+Columns }\end{DoxyParamCaption})}
+
+
+
+Prepare memory for data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Clusters} & number of clusters to split for data \\
+\hline
+{\em num\+Columns} & number of columns in file \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{functions_8h_ab90ce034d2f960a57b536687355d83aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_a481e42205dea393958d6aefec03977ff}\label{functions_8h_a481e42205dea393958d6aefec03977ff}} 
+\index{functions.h@{functions.h}!cluster@{cluster}}
+\index{cluster@{cluster}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{cluster()}{cluster()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ cluster (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{raw\+Data,  }\item[{int}]{num\+Clusters }\end{DoxyParamCaption})}
+
+
+
+Main clustering function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em raw\+Data} & imported unclustered data \\
+\hline
+{\em num\+Clusters} & number of clusters to split for data\\
+\hline
+\end{DoxyParams}
+\begin{DoxyCopyright}{Copyright}
+Copyright 2022 Jakub Dudek. 
+\end{DoxyCopyright}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{functions_8h_a481e42205dea393958d6aefec03977ff_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{functions_8h_a481e42205dea393958d6aefec03977ff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_af5d070164c3812ac43ff336a501d5505}\label{functions_8h_af5d070164c3812ac43ff336a501d5505}} 
+\index{functions.h@{functions.h}!distance@{distance}}
+\index{distance@{distance}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{distance()}{distance()}}
+{\footnotesize\ttfamily double distance (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{tuple,  }\item[{const std\+::vector$<$ double $>$ \&}]{mean }\end{DoxyParamCaption})}
+
+
+
+Calculate distances between vectors. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tuple} & one row from file \\
+\hline
+{\em mean} & current mean \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_af5d070164c3812ac43ff336a501d5505_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_a4518712782ae4f838653319f2f54c04f}\label{functions_8h_a4518712782ae4f838653319f2f54c04f}} 
+\index{functions.h@{functions.h}!initClustering@{initClustering}}
+\index{initClustering@{initClustering}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{initClustering()}{initClustering()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ init\+Clustering (\begin{DoxyParamCaption}\item[{int}]{num\+Tuples,  }\item[{int}]{num\+Clusters,  }\item[{int}]{seed }\end{DoxyParamCaption})}
+
+
+
+Propose random clustering for data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Tuples} & number of rows in file \\
+\hline
+{\em num\+Clusters} & number of clusters to split for data \\
+\hline
+{\em seed} & pseudo random number of splitting configuration \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_a4518712782ae4f838653319f2f54c04f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_af80000f3c43ffa2c0713101931eba40e}\label{functions_8h_af80000f3c43ffa2c0713101931eba40e}} 
+\index{functions.h@{functions.h}!minIndex@{minIndex}}
+\index{minIndex@{minIndex}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{minIndex()}{minIndex()}}
+{\footnotesize\ttfamily int min\+Index (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{distances }\end{DoxyParamCaption})}
+
+
+
+Get the closest centroid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distances} & distances from all centroids \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_af80000f3c43ffa2c0713101931eba40e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_a2a6a076f322cda547bccb50174217bd2}\label{functions_8h_a2a6a076f322cda547bccb50174217bd2}} 
+\index{functions.h@{functions.h}!normalized@{normalized}}
+\index{normalized@{normalized}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{normalized()}{normalized()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ normalized (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{raw\+Data }\end{DoxyParamCaption})}
+
+
+
+Normalizating input data using standard deviation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em raw\+Data} & imported unclustered data \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_a2a6a076f322cda547bccb50174217bd2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_a624b3f1d239a09019422537debaf0dec}\label{functions_8h_a624b3f1d239a09019422537debaf0dec}} 
+\index{functions.h@{functions.h}!updateClustering@{updateClustering}}
+\index{updateClustering@{updateClustering}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{updateClustering()}{updateClustering()}}
+{\footnotesize\ttfamily bool update\+Clustering (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{data,  }\item[{std\+::vector$<$ int $>$ \&}]{clustering,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{means }\end{DoxyParamCaption})}
+
+
+
+Calculating new clusters grouping based on new centroids. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & data from file \\
+\hline
+{\em clustering} & clustering from previous iteration \\
+\hline
+{\em means} & new centroinds calculated \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_a624b3f1d239a09019422537debaf0dec_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_a624b3f1d239a09019422537debaf0dec_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{functions_8h_ab713a10e9178f03cb29ac95456b5ad6e}\label{functions_8h_ab713a10e9178f03cb29ac95456b5ad6e}} 
+\index{functions.h@{functions.h}!updateMeans@{updateMeans}}
+\index{updateMeans@{updateMeans}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{updateMeans()}{updateMeans()}}
+{\footnotesize\ttfamily bool update\+Means (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{data,  }\item[{std\+::vector$<$ int $>$ \&}]{clustering,  }\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{means }\end{DoxyParamCaption})}
+
+
+
+Calculate centroids for cluster groups. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & data from file \\
+\hline
+{\em clustering} & clustering from previous iteration \\
+\hline
+{\em means} & old means -\/ centroids \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_ab713a10e9178f03cb29ac95456b5ad6e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8h_ab713a10e9178f03cb29ac95456b5ad6e_icgraph}
+\end{center}
+\end{figure}

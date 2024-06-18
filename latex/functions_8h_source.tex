@@ -1,0 +1,29 @@
+\hypertarget{functions_8h_source}{}\doxysection{functions.\+h}
+\label{functions_8h_source}\index{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h}}
+\mbox{\hyperlink{functions_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 }
+\DoxyCodeLine{14 std::vector<int> \mbox{\hyperlink{functions_8h_a481e42205dea393958d6aefec03977ff}{cluster}}(\textcolor{keyword}{const} std::vector<std::vector<double>>\& rawData, \textcolor{keywordtype}{int} numClusters);}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{20 std::vector<std::vector<double>> \mbox{\hyperlink{functions_8h_a2a6a076f322cda547bccb50174217bd2}{normalized}}(\textcolor{keyword}{const} std::vector<std::vector<double>>\& rawData);}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{28 std::vector<int> \mbox{\hyperlink{functions_8h_a4518712782ae4f838653319f2f54c04f}{initClustering}}(\textcolor{keywordtype}{int} numTuples, \textcolor{keywordtype}{int} numClusters, \textcolor{keywordtype}{int} seed);}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{35 std::vector<std::vector<double>> \mbox{\hyperlink{functions_8h_ab90ce034d2f960a57b536687355d83aa}{allocate}}(\textcolor{keywordtype}{int} numClusters, \textcolor{keywordtype}{int} numColumns);}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{43 \textcolor{keywordtype}{bool} \mbox{\hyperlink{functions_8h_ab713a10e9178f03cb29ac95456b5ad6e}{updateMeans}}(\textcolor{keyword}{const} std::vector<std::vector<double>>\& data, std::vector<int>\& clustering, std::vector<std::vector<double>>\& means);}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{51 \textcolor{keywordtype}{bool} \mbox{\hyperlink{functions_8h_a624b3f1d239a09019422537debaf0dec}{updateClustering}}(\textcolor{keyword}{const} std::vector<std::vector<double>>\& data, std::vector<int>\& clustering, \textcolor{keyword}{const} std::vector<std::vector<double>>\& means);}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{58 \textcolor{keywordtype}{double} \mbox{\hyperlink{functions_8h_af5d070164c3812ac43ff336a501d5505}{distance}}(\textcolor{keyword}{const} std::vector<double>\& tuple, \textcolor{keyword}{const} std::vector<double>\& mean);}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{64 \textcolor{keywordtype}{int} \mbox{\hyperlink{functions_8h_af80000f3c43ffa2c0713101931eba40e}{minIndex}}(\textcolor{keyword}{const} std::vector<double>\& distances);}
+
+\end{DoxyCode}

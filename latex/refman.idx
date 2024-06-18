@@ -1,0 +1,48 @@
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h}|hyperpage}{3}
+\indexentry{exporter.h@{exporter.h}!exportClustered@{exportClustered}|hyperpage}{4}
+\indexentry{exportClustered@{exportClustered}!exporter.h@{exporter.h}|hyperpage}{4}
+\indexentry{exporter.h@{exporter.h}!exportData@{exportData}|hyperpage}{4}
+\indexentry{exportData@{exportData}!exporter.h@{exporter.h}|hyperpage}{4}
+\indexentry{exporter.h@{exporter.h}!exportFile@{exportFile}|hyperpage}{5}
+\indexentry{exportFile@{exportFile}!exporter.h@{exporter.h}|hyperpage}{5}
+\indexentry{exporter.h@{exporter.h}!exportVector@{exportVector}|hyperpage}{6}
+\indexentry{exportVector@{exportVector}!exporter.h@{exporter.h}|hyperpage}{6}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/exporter.h}|hyperpage}{6}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h}|hyperpage}{7}
+\indexentry{functions.h@{functions.h}!allocate@{allocate}|hyperpage}{8}
+\indexentry{allocate@{allocate}!functions.h@{functions.h}|hyperpage}{8}
+\indexentry{functions.h@{functions.h}!cluster@{cluster}|hyperpage}{8}
+\indexentry{cluster@{cluster}!functions.h@{functions.h}|hyperpage}{8}
+\indexentry{functions.h@{functions.h}!distance@{distance}|hyperpage}{10}
+\indexentry{distance@{distance}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!initClustering@{initClustering}|hyperpage}{10}
+\indexentry{initClustering@{initClustering}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!minIndex@{minIndex}|hyperpage}{11}
+\indexentry{minIndex@{minIndex}!functions.h@{functions.h}|hyperpage}{11}
+\indexentry{functions.h@{functions.h}!normalized@{normalized}|hyperpage}{11}
+\indexentry{normalized@{normalized}!functions.h@{functions.h}|hyperpage}{11}
+\indexentry{functions.h@{functions.h}!updateClustering@{updateClustering}|hyperpage}{12}
+\indexentry{updateClustering@{updateClustering}!functions.h@{functions.h}|hyperpage}{12}
+\indexentry{functions.h@{functions.h}!updateMeans@{updateMeans}|hyperpage}{13}
+\indexentry{updateMeans@{updateMeans}!functions.h@{functions.h}|hyperpage}{13}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/functions.h}|hyperpage}{14}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/importer.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/importer.h}|hyperpage}{15}
+\indexentry{importer.h@{importer.h}!readFile@{readFile}|hyperpage}{15}
+\indexentry{readFile@{readFile}!importer.h@{importer.h}|hyperpage}{15}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/importer.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/importer.h}|hyperpage}{16}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h}|hyperpage}{16}
+\indexentry{screen.h@{screen.h}!showClustered@{showClustered}|hyperpage}{17}
+\indexentry{showClustered@{showClustered}!screen.h@{screen.h}|hyperpage}{17}
+\indexentry{screen.h@{screen.h}!showData@{showData}|hyperpage}{17}
+\indexentry{showData@{showData}!screen.h@{screen.h}|hyperpage}{17}
+\indexentry{screen.h@{screen.h}!showException@{showException}|hyperpage}{18}
+\indexentry{showException@{showException}!screen.h@{screen.h}|hyperpage}{18}
+\indexentry{screen.h@{screen.h}!showVector@{showVector}|hyperpage}{18}
+\indexentry{showVector@{showVector}!screen.h@{screen.h}|hyperpage}{18}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/screen.h}|hyperpage}{19}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h}|hyperpage}{19}
+\indexentry{validator.h@{validator.h}!isNumber@{isNumber}|hyperpage}{20}
+\indexentry{isNumber@{isNumber}!validator.h@{validator.h}|hyperpage}{20}
+\indexentry{validator.h@{validator.h}!validateArguments@{validateArguments}|hyperpage}{20}
+\indexentry{validateArguments@{validateArguments}!validator.h@{validator.h}|hyperpage}{20}
+\indexentry{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h@{C:/Users/Administrator/source/repos/952bf7e7-\/gr31-\/repo/projekt/Projekt Zaliczeniowy/Projekt Zaliczeniowy/validator.h}|hyperpage}{21}
